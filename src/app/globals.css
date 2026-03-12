@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #080705;
+  --foreground: rgba(245, 237, 224, 0.92);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* Smooth scrolling */
+  scroll-behavior: smooth;
+  /* Prevent horizontal scroll issues with full screen canvas */
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
