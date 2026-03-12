@@ -108,7 +108,7 @@ export default function CanvasSequence() {
       if (latest < 0.45) {
         // Pure Cocoa Sequence
         const progress = latest / 0.45;
-        let pIndex = Math.floor(progress * (TOTAL_FRAMES_PER_SEQ - 1));
+        const pIndex = Math.floor(progress * (TOTAL_FRAMES_PER_SEQ - 1));
         activeImg1 = cocoaImages[pIndex];
       } else if (latest >= 0.45 && latest <= 0.55) {
         // Crossfade Phase (Cocoa Last Frame -> Cake First Frame)

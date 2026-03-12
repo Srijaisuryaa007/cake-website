@@ -36,7 +36,7 @@ export default function StorySections() {
       >
         <div className="absolute inset-0 bg-gradient-radial-hero opacity-30 -z-10 blur-3xl scale-150 rounded-full" />
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight text-transparent bg-clip-text bg-gradient-text-gold pb-2 drop-shadow-lg">
-          Mitu's Cake Story
+          Mitu&apos;s Cake Story
         </h1>
         <p className="mt-4 font-serif text-2xl md:text-3xl text-cream font-medium italic">
           Every slice tells a story.
@@ -127,7 +127,7 @@ export default function StorySections() {
         </h2>
         
         <p className="font-serif text-xl md:text-3xl text-cream mt-6 mb-12 italic">
-          Mitu's Cake Story. <br className="md:hidden"/> Designed for occasions. Crafted for memories.
+          Mitu&apos;s Cake Story. <br className="md:hidden"/> Designed for occasions. Crafted for memories.
         </p>
 
         <div className="flex flex-col items-center gap-8">

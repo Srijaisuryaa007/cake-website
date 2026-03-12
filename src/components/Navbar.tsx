@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -55,7 +54,7 @@ export default function Navbar() {
           onClick={() => handleScrollTo(0)}
           className="font-serif text-2xl tracking-wide text-cream hover:text-white transition-colors flex items-start"
         >
-          <span className="italic">Mitu's Cake Story</span>
+          <span className="italic">Mitu&apos;s Cake Story</span>
           <span className="text-gold-antique text-xs ml-1 mt-1">✦</span>
         </button>
       </div>
